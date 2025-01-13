@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  justify-content: space-between;
+  background-color: cadetblue;
+ 
+
+ }
+ nav{
+  justify-content: space-between;
+  background-color: rgb(193, 240, 237);
+  padding: 20px;
+  border-radius: 25px;
+  display: flex;
+  
+ }
+
+ .Ab1{
+  font-weight: bold;
+  font-size: 30px;
+  font-style:italic;
+  margin-left: -800px;
+  margin-top: 2px;
+  
+  
+  }
+ .Ab2{
+  text-align: right;
+  margin-top: 2px;
+  font-weight: bold;
+  color: rgb(252, 250, 247);
+ }
+  
+  
+  a{
+  text-decoration: none;
+  margin-right: 10px ;
+  }
+  h1{
+    margin-left: 250px;
+    margin-top: 85px;
+  }
+    
+  .join-button{
+    height: 35px;
+    width: 55px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+  .join-button:hover{
+    background-color: aqua; 
+    color: black;
+    opacity: 0.7;    
+    box-shadow: 5px 5px 25px  ;
+    transition: 0.15s;
+    color: 0.15s;
+  }
+  .join-button:active{
+    background-color: rgb(206, 47, 47);
+
+  }
+  .search{
+    margin-left: 250px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+
+  }
+  input[type=search]{
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  }
+  input[type=search]:focus{
+    width: 40%;
+  }
+  .Ab3{
+    font-weight: lighter;
+    margin-left: 250px;
+    padding-top: 10px;
+    font-size: 20px;        
+  }
+  .b1{
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 250px;
+    
+    
+    }
+
+    .b1:hover{
+    background-color: rgb(169, 104, 199); 
+    opacity: 0.7;    
+    box-shadow: 5px 5px 5px;
+    transition: 0.15s;
+    color: white;
+  
+   }
+  .b2{
+    height: 35px;
+    width: 85px;
+    border-radius: 10px;
+   
+    }
+
+    .b2:hover{
+    background-color: rgb(169, 104, 199); 
+    opacity: 0.7;    
+    box-shadow: 5px 5px 5px;
+    transition: 0.15s;
+    color: white;
+    
+
+    }
+  .b3{
+    height: 35px;
+    width: 95px;
+    border-radius: 10px;
+    
+  }
+
+  .b3:hover{
+    background-color: rgb(169, 104, 199); 
+    opacity: 0.7;    
+    box-shadow: 5px 5px 5px;
+    transition: 0.15s;
+    color: white;
+  }
+  .b4{
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+   
+
+  }
+
+  .b4:hover{
+    background-color: rgb(169, 104, 199); 
+    opacity: 0.7;    
+    box-shadow: 5px 5px 5px;
+    transition: 0.15s;
+    color: white;
+  }
+  .b8{
+    font-family:Georgia, 'Times New Roman', Times, serif;}
+    
+
+  body{
+    background-image:url(bg_fiver.jpeg);
+  }
+
+  .symbol{
+    height: 45px;
+    border-radius: 23px;
+    
+
+  }
+  .symbol~.Ab1{
+    display: flex;
+  }
+  .web-buttons{
+    border: none;
+    background-color: rgb(202, 190, 190);
+    text-align: center;
+    padding: 10px;
+    margin-top: 155px;
+  
+  }
+  .b9{
+    border: none;
+    font-family: brush system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 21px;
+    margin-right: 15px;
+    border-radius: 1000PX;
+  }
+  .search-icon{
+    width:21px ;
+    height: 21px;
+    border-radius: 11px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+  }
